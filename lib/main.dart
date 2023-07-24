@@ -5,7 +5,7 @@ import 'package:wazobia/controllers/animation.controller.dart';
 import 'package:wazobia/screens/splash.page.dart';
 
 void main() {
-  
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
 }
 
